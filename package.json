@@ -9,6 +9,8 @@
     "vite": "^4.3.4"
   },
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+        "build": "webpack --config ./src/client/webpack.prod.js"
+
   }
 }
