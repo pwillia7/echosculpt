@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@tweenjs/tween.js": "^20.0.3",
+    "gh-pages": "^5.0.0",
+    "three": "^0.152.2",
+    "tone": "^14.7.77"
+  },
+  "devDependencies": {
+    "vite": "^4.3.4"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  }
+}
